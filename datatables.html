@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8"/>
-	<title>My Application</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Restaurant Grocer</title>
 	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4-4.1.1/dt-1.10.20/r-2.2.3/datatables.min.css"/>
 
 	<style>
 		html, body{
-			min-width: 100%;
+			max-width: 100%;
+		}
+
+		body{
+			padding-bottom: 5em;
 		}
 
 		#main-jumbotron{
-			background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url("img/jumbo-veg.jpg");
+			background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url("img/veg-stand.jpg");
 			background-size: cover;
 			background-position: center;
 			height: 50vh;
@@ -19,10 +24,6 @@
 
 		#jumbotron-container{
 			color: white;
-		}
-
-		table{
-			width: 100%;
 		}
 
 		#example_filter{
@@ -48,22 +49,11 @@
 
 	<!--        navbar on landing page-->
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<a class="navbar-brand" href="#">Navbar</a>
+		<a class="navbar-brand" href="#">Restaurant Grocer</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
-
-		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav mr-auto">
-				<li class="nav-item active">
-					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Link</a>
-				</li>
-			</ul>
-		</div>
 	</nav>
 </div>
 
@@ -71,27 +61,37 @@
 
 	<div class="container" id="jumbotron-container">
 <!--		<h1 class="display-4"><s>Restaurant</s></h1>-->
-		<h1 class="display-4">Restaurant Grocery Store</h1>
-		<p class="lead">Check out our selection of loving pets!</p>
-<!--		<p class="lead">-->
-<!--			<a class="btn btn-primary btn-lg" href="#" role="button"></a>-->
-<!--		</p>-->
+		<h1 class="display-4">Restaurant Grocer</h1>
+		<div class="row">
+			<div class="col-md-6">
+				<p class="lead">During the COVID-19 pandemic some local restaurants are selling their produce directly to consumers. Search here to find common staples. You can
+					<a href="" class="text-warning">submit a restaurant here!</a></p>
+				<div class="lead">
+					<a class="btn btn-warning btn-lg" href="#" id="list-btn" role="button">LIST</a>
+					<a class="btn btn-warning btn-lg" href="#" id="map-btn" role="button">MAP</a>
+				</div>
+
+			</div>
+		</div>
 
 	</div>
 </div>
 
-<div id="place-table" class="container">
-	<div class="row">
-		<table id="example" class="table table-striped table-bordered dt-responsive" style="width: 100%">
+<div id="main-container" class="container-fluid">
+	<div id="table-div">
+		<table id="example" class="table table-striped dt-responsive table-bordered no-footer" style="width: 100%;">
 			<thead>
 				<tr>
 					<th>NAME</th>
 					<th>DESCRIPTION</th>
 					<th>CONTACT</th>
+					<th>SOURCE</th>
 				</tr>
 			</thead>
 		</table>
 	</div>
+
+	<div id="map-div">map here</div>
 </div>
 
 
@@ -110,19 +110,34 @@
 
 <script>
 	$(document).ready(function() {
+
+		$("#map-btn").on("click",function () {
+			$("#table-div").hide();
+			$("#map-div").show();
+
+
+		})
+
+		$("#list-btn").on("click", function () {
+			$("#table-div").show();
+			$("#map-div").hide();
+
+		})
+
 		$('#example').DataTable( {
 			data: data,
 			responsive: true,
 			columns: [
 				{
-					width: "20%",
+					// width: "20%",
 					data: "name",
 				},
 				{
+					width: "60%",
 					data: "description"
 				},
 				{
-					width: "30%",
+					// width: "30%",
 					orderable: false,
 					data: null,
 					render: function (data, type, row) {
@@ -144,6 +159,21 @@
 						}
 
 						return html;
+					}
+				},
+				{
+					data: null,
+					render: function (data, type, row) {
+						//https://stackoverflow.com/questions/44308685/want-to-split-a-string-after-a-certain-word
+
+						if(data.source !== null){
+							var url = new URL(data.source);
+							var baseUrl = "www."  + (url.origin).split("www.")[1];
+
+						}
+
+						return '<a href="'+data.source+'" target="_blank">'+ baseUrl+'</a>';
+
 					}
 				}
 
