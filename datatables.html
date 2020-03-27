@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<title>My Application</title>
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4-4.1.1/dt-1.10.20/r-2.2.3/datatables.min.css"/>
+
+	<style>
+		html, body{
+			min-width: 100%;
+		}
+
+		#main-jumbotron{
+			background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url("img/jumbo-veg.jpg");
+			background-size: cover;
+			background-position: center;
+			height: 50vh;
+		}
+
+		#jumbotron-container{
+			color: white;
+		}
+
+		table{
+			width: 100%;
+		}
+
+		#example_filter{
+			float:right;
+		}
+		#example_paginate{
+			float:right;
+		}
+		label {
+			display: inline-flex;
+			margin-bottom: .5rem;
+			margin-top: .5rem;
+
+		}
+	</style>
+
+
+</head>
+<body>
+
+<!--fluid container starts here-->
+<div class="container-fluid p-0">
+
+	<!--        navbar on landing page-->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="#">Navbar</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Link</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+</div>
+
+<div class="jumbotron jumbotron-fluid" id="main-jumbotron">
+
+	<div class="container" id="jumbotron-container">
+<!--		<h1 class="display-4"><s>Restaurant</s></h1>-->
+		<h1 class="display-4">Restaurant Grocery Store</h1>
+		<p class="lead">Check out our selection of loving pets!</p>
+<!--		<p class="lead">-->
+<!--			<a class="btn btn-primary btn-lg" href="#" role="button"></a>-->
+<!--		</p>-->
+
+	</div>
+</div>
+
+<div id="place-table" class="container">
+	<div class="row">
+		<table id="example" class="table table-striped table-bordered dt-responsive" style="width: 100%">
+			<thead>
+				<tr>
+					<th>NAME</th>
+					<th>DESCRIPTION</th>
+					<th>CONTACT</th>
+				</tr>
+			</thead>
+		</table>
+	</div>
+</div>
+
+
+<script
+		src="https://code.jquery.com/jquery-3.4.1.min.js"
+		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+		crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+		crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="https://cdn.datatables.net/v/bs4-4.1.1/dt-1.10.20/r-2.2.3/datatables.min.js"></script>
+
+<script src="data.js"></script>
+
+<script>
+	$(document).ready(function() {
+		$('#example').DataTable( {
+			data: data,
+			responsive: true,
+			columns: [
+				{
+					width: "20%",
+					data: "name",
+				},
+				{
+					data: "description"
+				},
+				{
+					width: "30%",
+					orderable: false,
+					data: null,
+					render: function (data, type, row) {
+						console.log(data);
+						var html = "";
+						if(data.streetAddress !== null){
+							html += '<span><strong>Address:</strong> '+ data.streetAddress+'</span>' ;
+							html += '<br>';
+						}
+
+						if(data.phoneNumber !== null){
+							html += '<span><strong>Phone:</strong> '+ data.phoneNumber+'</span>' ;
+							html += '<br>';
+						}
+
+						if(data.website !== null){
+							html += '<span><strong>Website:</strong> </span><a href="http://'+data.website+'" target="_blank">'+ data.website +'</a></span>' ;
+							html += '<br>';
+						}
+
+						return html;
+					}
+				}
+
+
+
+			]
+		} );
+	} );
+</script>
+
+</body>
+</html>
