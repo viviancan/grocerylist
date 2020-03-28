@@ -338,7 +338,7 @@ var data =  [
 		{
 			"id": 21,
 			"name": "Theory Coffee Co",
-			"phoneNumber": null,
+			"phoneNumber": "null",
 			"streetAddress": "2437 Nacogdoches Rd",
 			"city": "San Antonio",
 			"state": "TX",
@@ -350,6 +350,116 @@ var data =  [
 			"twitter": null,
 			"source": "https://www.theorycoffeeco.com/shop/mill-king-1-milk",
 			"latlng": [29.508492, -98.457497]
+		},
+		{
+			"id": 22,
+			"name": "Fralo's Pizza",
+			"phoneNumber": "(210) 698-6616",
+			"streetAddress": "23651 W Interstate 10",
+			"city": "San Antonio",
+			"state": "TX",
+			"zipCode": 78257,
+			"county": "Bexar",
+			"description": "Along with pizza for delivery and curbside pickup, this Northwest Side pizza eatery is providing specials on eggs, produce and other grocery items daily. Follow their instagram page for updates on what’s available each day. Orders can be made between 10 a.m.-10 p.m.",
+			"website": "fralos.com",
+			"facebook": "fralospizza",
+			"twitter": null,
+			"source": "https://www.sanantoniomag.com/restaurants-help-provide-pantry-staples-during-coronavirus/",
+			"latlng": [29.661260, -98.627959]
+		},
+		{
+			"id": 23,
+			"name": "Nicha’s Comida Mexicana",
+			"phoneNumber": "(210) 922-3330",
+			"streetAddress": null,
+			"city": "San Antonio",
+			"state": "TX",
+			"zipCode": null,
+			"county": "Bexar",
+			"description": "Groceries are ready! Avoid the long lines and come by any of our Nicha’s locations to pick up what you need! Here’s what we have: Bleach, Toilet paper, Eggs, Liquid eggs, Sugar, White bread, Tortillas, Lasagna trays, potatoes, loose and canned beans and beans, Flour, Bottled water packs and Gloves. There’s more to come! We will keep you guys updated.",
+			"website": "nichas.com",
+			"facebook": "nichascomidamexicana",
+			"twitter": null,
+			"source": "https://www.facebook.com/nichascomidamexicana/posts/3449182845098819",
+			"latlng": [29.661260, -98.627959],
+			"hasMultipleLocations": true,
+			"locations":[
+				{
+					"phoneNumber": "(210) 680-4420",
+					"streetAddress": "5059 Northwest Loop 410",
+					"city": "San Antonio",
+					"state": "TX",
+					"zipCode": 78229,
+					"latlng": null
+				},
+				{
+					"phoneNumber": "(210) 922-3330",
+					"streetAddress": "3119 Roosevelt Avenue",
+					"city": "San Antonio",
+					"state": "TX",
+					"zipCode": 78214,
+					"latlng": null
+				},
+				{
+					"phoneNumber": "(210) 655-4420",
+					"streetAddress": "7929 Pat Booker Road",
+					"city": "San Antonio",
+					"state": "TX",
+					"zipCode": 78233,
+					"latlng": null
+				}
+			]
+		},
+		{
+			"id": 24,
+			"name": "Halcyon Southtown",
+			"phoneNumber": "(210) 277-7045",
+			"streetAddress": "1414 S Alamo St",
+			"city": "San Antonio",
+			"state": "TX",
+			"zipCode": 78210,
+			"county": "Bexar",
+			"description": "Southtown residents and friends of Halcyon - If you need groceries, family meals, coffee, or even alcohol, Halcyon has you covered! ONLINE ORDERING FORM.",
+			"website": "halcyoncoffeebar.com",
+			"facebook": "HalcyonSouthtown",
+			"twitter": null,
+			"source": "https://www.facebook.com/HalcyonSouthtown/posts/3088196057897849",
+			"latlng": [29.410001, -98.495465],
+			"hasMultipleLocations": false,
+		},
+		{
+			"id": 25,
+			"name": "Hearthstone Bakery Cafe",
+			"phoneNumber": "(210) 826-5668",
+			"streetAddress": null,
+			"city": "San Antonio",
+			"state": "TX",
+			"zipCode": null,
+			"county": "Bexar",
+			"description": "Thank you for requesting an order form. Please call (210) 826-5668 between 10AM and 3 PM Monday through Friday to place your orders for next day pick up and delivery.",
+			"website": "hearthstonebakerycafe.com",
+			"facebook": "Hearthstone-Bakery-Cafe-128818360498502",
+			"twitter": null,
+			"source": "https://www.facebook.com/permalink.php?story_fbid=2940957732617870&id=128818360498502",
+			"latlng": null,
+			"hasMultipleLocations": true,
+			"locations":[
+				{
+					"phoneNumber": null,
+					"streetAddress": "4212 McCullough Ave",
+					"city": "San Antonio",
+					"state": "TX",
+					"zipCode": 78212,
+					"latlng": null
+				},{
+					"phoneNumber": null,
+					"streetAddress": "3920 Harry Wurzbach Rd",
+					"city": "San Antonio",
+					"state": "TX",
+					"zipCode": 78209,
+					"latlng": null
+				}
+			]
 		}
 	]
 
