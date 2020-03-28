@@ -17,12 +17,12 @@ body{
     color: white;
 }
 
-#example_filter{
-    float:right;
-}
-#example_paginate{
-    float:right;
-}
+/*#example_filter{*/
+/*    float:right;*/
+/*}*/
+/*#example_paginate{*/
+/*    float:left;*/
+/*}*/
 label {
     display: inline-flex;
     margin-bottom: .5rem;
