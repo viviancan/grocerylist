@@ -3,11 +3,19 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="Description" content="Find groceries from your local restaurants during the COVID-19 outbreak.">
+
 	<title>Restaurant Grocer</title>
+
+	<link rel="preload" href="https://restaurantgrocer.com">
+
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106881278-7"></script>
-	<script>
+	<script async>
 		window.dataLayer = window.dataLayer || [];
 		function gtag(){dataLayer.push(arguments);}
 		gtag('js', new Date());
@@ -19,7 +27,10 @@
 	<link rel="stylesheet" type="text/css"
 		  href="https://cdn.datatables.net/v/bs4-4.1.1/dt-1.10.20/r-2.2.3/datatables.min.css"/>
 
-	<link href='https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.css' rel='stylesheet'/>
+<!--	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/r-2.2.3/datatables.min.css"/>-->
+
+
+	<link href='https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.css' rel='stylesheet' />
 
 	<link rel="stylesheet" href="style.css">
 
@@ -31,8 +42,10 @@
 
 	<!--        navbar on landing page-->
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<a class="navbar-brand" href="#">Restaurant Grocer</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+		<a class="navbar-brand" href="#">
+			<img src="img/carrot.png" width="30" height="30" class="d-inline-block align-top" alt="">
+			Restaurant Grocer
+		</a>		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -47,7 +60,7 @@
 			<div class="col-md-6">
 				<p class="lead">During the COVID-19 pandemic some local restaurants are selling their produce directly
 					to consumers. Search here to find common staples. You can
-					<a href="https://forms.gle/WgVtzCpaTu5Z7Rh36" target="_blank" class="text-warning">submit a restaurant here!</a></p>
+					<a href="https://forms.gle/WgVtzCpaTu5Z7Rh36" target="_blank" rel="noopener" class="text-warning">submit a restaurant here!</a></p>
 				<div class="lead">
 					<a class="btn btn-warning btn-lg" href="#" id="list-btn" role="button">LIST</a>
 					<a class="btn btn-warning btn-lg" href="#" id="map-btn" role="button">MAP</a>
@@ -79,19 +92,23 @@
 	</div>
 </div>
 
-<script src='https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.js'></script>
-
 <script
 		src="https://code.jquery.com/jquery-3.4.1.min.js"
 		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
 		crossorigin="anonymous"></script>
 
+<script src='https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.js' defer></script>
+
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
 		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
 		crossorigin="anonymous"></script>
 
-<script type="text/javascript"
-		src="https://cdn.datatables.net/v/bs4-4.1.1/dt-1.10.20/r-2.2.3/datatables.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous" defer></script>
+
+<script type="text/javascript" src="https://cdn.datatables.net/v/bs4/dt-1.10.20/r-2.2.3/datatables.min.js" defer></script>
+
+<!--<script type="text/javascript"-->
+<!--		src="https://cdn.datatables.net/v/bs4-4.1.1/dt-1.10.20/r-2.2.3/datatables.min.js"></script>-->
 
 <script src="js/keys.js"></script>
 <script src="data.js"></script>

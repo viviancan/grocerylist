@@ -3,12 +3,12 @@ $(document).ready(function () {
 		$("#table-div").hide();
 		$("#map-div, #map").show();
 		createMap();
-	})
+	});
 
 	$("#list-btn").on("click", function () {
 		$("#table-div").show();
 		$("#map-div, #map").hide();
-	})
+	});
 
 
 	function createMap() {
@@ -54,7 +54,7 @@ $(document).ready(function () {
 		var html = "";
 
 		if(place.html !== null && place.name !== null){
-			html = '<a target="_blank" href="http://www.' + place.website + '"><h5>' + place.name + '</h5></a>';
+			html = '<a target="_blank" rel="noopener" href="http://www.' + place.website + '"><h5>' + place.name + '</h5></a>';
 		} else {
 			html += '<h5>' + place.name +'</h5>'
 		}
@@ -130,11 +130,11 @@ $(document).ready(function () {
 		}
 
 		if (data.website !== null) {
-			html += '<span><strong>Website:</strong> </span><a href="http://' + data.website + '" target="_blank">' + data.website + '</a></span><br>';
+			html += '<span><strong>Website:</strong> </span><a href="http://' + data.website + '" target="_blank" rel="noopener">' + data.website + '</a></span><br>';
 		}
 
 		if (data.facebook !== null) {
-			html += '<span><strong>Facebook:</strong> </span><a href="http://facebook.com/' + data.facebook + '" target="_blank">@' + data.facebook + '</a></span><br>';
+			html += '<span><strong>Facebook:</strong> </span><a href="http://facebook.com/' + data.facebook + '" target="_blank" rel="noopener">@' + data.facebook + '</a></span><br>';
 		}
 
 		return html;
@@ -146,7 +146,7 @@ $(document).ready(function () {
 		if (data.source !== null) {
 			var url = new URL(data.source);
 			var baseUrl = "www." + (url.origin).split("www.")[1];
-			html = '<a href="' + data.source + '" target="_blank">' + baseUrl + '</a>';
+			html = '<a href="' + data.source + '" target="_blank" rel="noopener">' + baseUrl + '</a>';
 		}
 
 		return html;
