@@ -26,3 +26,5 @@ Add your mapbox token to keys.js:
 ### Phase II
 *  Map View
     * Sort/filter through map based on type of item searching for
+* About 
+    * Simple about page 
