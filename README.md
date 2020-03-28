@@ -1,7 +1,7 @@
 # Restaurant Grocer
 This project was created in response to the COVID-19 Pandemic. This mobile responsive site will allow for users to search and filter available groceries from local restaurants, who are now selling groceries directly to the consumer
 
-![Restaurant Grocer landing page](img/restaurant-grocery-landing?raw=true "Restaurant Grocer")
+![Restaurant Grocer landing page](img/restaurant-grocery-landing.png?raw=true "Restaurant Grocer")
 
 
 ## Setup
