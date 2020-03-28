@@ -1,16 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8"/>
-	<title>My Application</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-		  integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Restaurant Grocer</title>
 
-	<link href="https://fonts.googleapis.com/css?family=Questrial|Roboto&display=swap" rel="stylesheet">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106881278-7"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
 
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+		gtag('config', 'UA-106881278-7');
+	</script>
 
-	<link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.16.0/dist/bootstrap-table.min.css">
+
+	<link rel="stylesheet" type="text/css"
+		  href="https://cdn.datatables.net/v/bs4-4.1.1/dt-1.10.20/r-2.2.3/datatables.min.css"/>
+
+	<link href='https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.css' rel='stylesheet'/>
+
+	<link rel="stylesheet" href="style.css">
+
 </head>
 <body>
 
@@ -19,60 +31,55 @@
 
 	<!--        navbar on landing page-->
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<a class="navbar-brand" href="#">Navbar</a>
+		<a class="navbar-brand" href="#">Restaurant Grocer</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
-
-		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav mr-auto">
-				<li class="nav-item active">
-					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Link</a>
-				</li>
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-					   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						Dropdown
-					</a>
-					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<a class="dropdown-item" href="#">Action</a>
-						<a class="dropdown-item" href="#">Another action</a>
-						<div class="dropdown-divider"></div>
-						<a class="dropdown-item" href="#">Something else here</a>
-					</div>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-				</li>
-			</ul>
-			<form class="form-inline my-2 my-lg-0">
-				<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-			</form>
-		</div>
 	</nav>
+</div>
 
+<div class="jumbotron jumbotron-fluid" id="main-jumbotron">
 
+	<div class="container" id="jumbotron-container">
+		<h1 class="display-4">Restaurant Grocer</h1>
+		<div class="row">
+			<div class="col-md-6">
+				<p class="lead">During the COVID-19 pandemic some local restaurants are selling their produce directly
+					to consumers. Search here to find common staples. You can
+					<a href="" class="text-warning">submit a restaurant here!</a></p>
+				<div class="lead">
+					<a class="btn btn-warning btn-lg" href="#" id="list-btn" role="button">LIST</a>
+					<a class="btn btn-warning btn-lg" href="#" id="map-btn" role="button">MAP</a>
+				</div>
 
-	<div id="place-table" class="container">
-		<table id="table">
+			</div>
+		</div>
+
+	</div>
+</div>
+
+<div id="main-container" class="container-fluid">
+	<div id="table-div">
+		<table id="example" class="table table-striped dt-responsive table-bordered no-footer" style="width: 100%;">
 			<thead>
 			<tr>
-				<th data-field="name">Item Name</th>
-				<th data-field="description">Description</th>
-				<th data-field="phoneNumber">Phone Number</th>
-				<th data-field="website">website</th>
+				<th>NAME</th>
+				<th>DESCRIPTION</th>
+				<th>CONTACT</th>
+				<th>SOURCE</th>
 			</tr>
 			</thead>
 		</table>
 	</div>
 
+	<div id="map-div">
+		<div id='map'></div>
+	</div>
 </div>
 
+
+<script src='https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.js'></script>
 
 <script
 		src="https://code.jquery.com/jquery-3.4.1.min.js"
@@ -83,21 +90,12 @@
 		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
 		crossorigin="anonymous"></script>
 
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-		crossorigin="anonymous"></script>
+<script type="text/javascript"
+		src="https://cdn.datatables.net/v/bs4-4.1.1/dt-1.10.20/r-2.2.3/datatables.min.js"></script>
 
-<script src="https://unpkg.com/bootstrap-table@1.16.0/dist/bootstrap-table.min.js"></script>
-
-
+<script src="js/keys.js"></script>
 <script src="data.js"></script>
-<script>
-	console.log(data);
-	var $table = $('#table');
-	$(function() {
-		$table.bootstrapTable({data: data});
-	});
+<script src="js/main.js"></script>
 
-</script>
 </body>
 </html>

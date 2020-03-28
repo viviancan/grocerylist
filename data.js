@@ -12,7 +12,8 @@ var data =  [
 			"website": "biglouspizza-satx.com",
 			"facebook": null,
 			"twitter": null,
-			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"
+			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php",
+			"latlng": [28.5756184,-81.5332813]
 		},
 		{
 			"id": 3,
@@ -27,7 +28,8 @@ var data =  [
 			"website": "cheesyjanes.com",
 			"facebook": null,
 			"twitter": null,
-			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"
+			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php",
+			"latlng": [29.465100, -98.463730]
 		},
 		{
 			"id": 4,
@@ -42,7 +44,8 @@ var data =  [
 			"website": "cookhouseathome.com",
 			"facebook": null,
 			"twitter": null,
-			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"
+			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php",
+			"latlng": [29.453090, -98.485210]
 		},
 		{
 			"id": 5,
@@ -57,7 +60,8 @@ var data =  [
 			"website": "foodrelated.com",
 			"facebook": null,
 			"twitter": null,
-			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"
+			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php",
+			"latlng": null
 		},
 		{
 			"id": 6,
@@ -72,7 +76,8 @@ var data =  [
 			"website": "thefruteria.com",
 			"facebook": null,
 			"twitter": null,
-			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"
+			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php",
+			"latlng": [29.410070,-98.501820]
 		},
 		{
 			"id": 7,
@@ -87,7 +92,8 @@ var data =  [
 			"website": "grayzeongrayson.com",
 			"facebook": null,
 			"twitter": null,
-			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"
+			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php",
+			"latlng": [29.443390,-98.474660]
 		},
 		{
 			"id": 8,
@@ -102,7 +108,8 @@ var data =  [
 			"website": "jprimesteakhouse.com",
 			"facebook": null,
 			"twitter": null,
-			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"
+			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php",
+			"latlng": [29.583780, -98.638440]
 		},
 		{
 			"id": 9,
@@ -117,7 +124,8 @@ var data =  [
 			"website": "jasonsdeli.com",
 			"facebook": null,
 			"twitter": null,
-			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"
+			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php",
+			"latlng": null
 		},
 		{
 			"id": 21,
@@ -132,7 +140,8 @@ var data =  [
 			"website": "jet-settersa.com",
 			"facebook": null,
 			"twitter": null,
-			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"
+			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php",
+			"latlng": [29.426782, -98.490137]
 		},
 		{
 			"id": 10,
@@ -147,7 +156,8 @@ var data =  [
 			"website": "lagloria.com",
 			"facebook": null,
 			"twitter": null,
-			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"
+			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php",
+			"latlng": [29.444245, -98.481233]
 		},
 		{
 			"id": 11,
@@ -162,7 +172,8 @@ var data =  [
 			"website": "lapanaderia.com",
 			"facebook": null,
 			"twitter": null,
-			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"
+			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php",
+			"latlng": [29.426618, -98.489567]
 		},
 		{
 			"id": 12,
@@ -177,7 +188,8 @@ var data =  [
 			"website": "larderatemma.com",
 			"facebook": null,
 			"twitter": null,
-			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"
+			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php",
+			"latlng": [29.442822, -98.480901]
 		},
 		{
 			"id": 13,
@@ -192,7 +204,8 @@ var data =  [
 			"website": "mitierracafe.com",
 			"facebook": null,
 			"twitter": null,
-			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"
+			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php",
+			"latlng": [29.425037, -98.499715]
 		},
 		{
 			"id": 14,
@@ -207,7 +220,8 @@ var data =  [
 			"website": "picnikins.com",
 			"facebook": null,
 			"twitter": null,
-			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"
+			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php",
+			"latlng": null
 		},
 		{
 			"id": 15,
@@ -222,7 +236,8 @@ var data =  [
 			"website": "therustic.com",
 			"facebook": null,
 			"twitter": null,
-			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"
+			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php",
+			"latlng": [29.610231, -98.598609]
 		},
 		{
 			"id": 16,
@@ -237,7 +252,8 @@ var data =  [
 			"website": "saltgrass.com",
 			"facebook": null,
 			"twitter": null,
-			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"
+			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php",
+			"latlng": null
 		},
 		{
 			"id": 17,
@@ -252,7 +268,8 @@ var data =  [
 			"website": "sangriaontheburg.com",
 			"facebook": null,
 			"twitter": null,
-			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"
+			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php",
+			"latlng": [29.501578, -98.559825]
 		},
 		{
 			"id": 18,
@@ -267,7 +284,8 @@ var data =  [
 			"website": "stillgoldensa.com",
 			"facebook": null,
 			"twitter": null,
-			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"
+			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php",
+			"latlng": [29.443622, -98.476223]
 		},
 		{
 			"id": 19,
@@ -282,7 +300,8 @@ var data =  [
 			"website": "whiskeycake.com",
 			"facebook": null,
 			"twitter": null,
-			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"
+			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php",
+			"latlng": [29.593067, -98.615641]
 		},
 		{
 			"id": 20,
@@ -295,9 +314,42 @@ var data =  [
 			"county": "Bexar",
 			"description": "Selling grocery packages with meat, dairy, eggs, produce for $55 with optional add-on items. Exact items updated daily at Facebook: @thewinchester78209.",
 			"website": "thewinchestersanantonio.com",
+			"facebook": "thewinchester78209",
+			"twitter": null,
+			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php",
+			"latlng": [29.474298, -98.462291]
+		},
+		{
+			"id": 21,
+			"name": "The People's Nite Market @ The Dakota San Antonio",
+			"phoneNumber": null,
+			"streetAddress": "433 S Hackberry",
+			"city": "San Antonio",
+			"state": "TX",
+			"zipCode": 78203,
+			"county": "Bexar",
+			"description": "Hello Nite People! We have teamed up with several community organizations(@eastsidemarketsa , @garciastreetfarm and The Dakota Ice House) to provide some basic staples that are very much needed at the moment. April 1st, from 3pm-9pm at @thedakotasa on S. Hackberry we will be providing a Community Curbside Market pick-up for pre-ordered veggie packs from @rivercityproduce and have a limited amount of staples folks are having issues finding at local grocery stores. \n Staples Include: Beans, Rice, Bread(white/wheat) Eggs(dozen), local honey from @nectardfleur , veggie garden starts from @sano_nursery (Prices are subject to change based on demand at the moment)",
+			"website": null,
+			"facebook": "thepeoplesnitemarket",
+			"twitter": null,
+			"source": "https://www.facebook.com/thepeoplesnitemarket/posts/2318467941786922",
+			"latlng": [29.416120, -98.473440]
+		},
+		{
+			"id": 21,
+			"name": "Theory Coffee Co",
+			"phoneNumber": null,
+			"streetAddress": "2437 Nacogdoches Rd",
+			"city": "San Antonio",
+			"state": "TX",
+			"zipCode": 78209,
+			"county": "Bexar",
+			"description": "Mill-King 1% Milk - $6.50 - Expiration 4/8 ",
+			"website": "theorycoffeeco.com/shop",
 			"facebook": null,
 			"twitter": null,
-			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"
+			"source": "https://www.theorycoffeeco.com/shop/mill-king-1-milk",
+			"latlng": [29.508492, -98.457497]
 		}
 	]
 
