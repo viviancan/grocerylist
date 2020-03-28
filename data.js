@@ -338,7 +338,7 @@ var data =  [
 		{
 			"id": 21,
 			"name": "Theory Coffee Co",
-			"phoneNumber": "null",
+			"phoneNumber": null,
 			"streetAddress": "2437 Nacogdoches Rd",
 			"city": "San Antonio",
 			"state": "TX",
