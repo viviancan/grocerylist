@@ -1,4 +1,4 @@
-Create a keys.js file in the js director
+Create a keys.js file in the js directory
 
 Add your mapboxtoken like:
 
