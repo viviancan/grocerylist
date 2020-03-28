@@ -13,9 +13,9 @@ Add your mapbox token to keys.js:
 
 ``var mapboxToken = mapbox_token_here``
 
-##Specifications
+## Specifications
 
-###Phase I
+### Phase I
 * Table View
     * Users can sort through the list of restaurants and search for type
 * Map View
@@ -23,6 +23,6 @@ Add your mapbox token to keys.js:
 * Google Form
     * Users can submit a restaurant that is selling groceries to a goolge form
     
-###Phase II
+### Phase II
 *  Map View
     * Sort/filter through map based on type of item searching for
