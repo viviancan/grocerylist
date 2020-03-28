@@ -450,14 +450,14 @@ var data =  [
 					"city": "San Antonio",
 					"state": "TX",
 					"zipCode": 78212,
-					"latlng": null
+					"latlng": [29.469557, -98.491378]
 				},{
 					"phoneNumber": null,
 					"streetAddress": "3920 Harry Wurzbach Rd",
 					"city": "San Antonio",
 					"state": "TX",
 					"zipCode": 78209,
-					"latlng": null
+					"latlng": [29.506185, -98.434082]
 				}
 			]
 		}

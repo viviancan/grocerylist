@@ -17,7 +17,9 @@ $(document).ready(function () {
 		var mapOptions = {
 			container: 'map', style: 'mapbox://styles/mapbox/streets-v9',
 			zoom: 10,
-			center: [-98.4916, 29.4252]
+			center: [-98.4916, 29.4252],
+			touchZoomRotate: false,
+			refreshExpiredTiles: false,
 		}
 
 		//creates map
@@ -140,13 +142,13 @@ $(document).ready(function () {
 
 	function createSourceHtml(data){
 		//https://stackoverflow.com/questions/44308685/want-to-split-a-string-after-a-certain-word
-
+		var html = "";
 		if (data.source !== null) {
 			var url = new URL(data.source);
 			var baseUrl = "www." + (url.origin).split("www.")[1];
-
+			html = '<a href="' + data.source + '" target="_blank">' + baseUrl + '</a>';
 		}
 
-		return '<a href="' + data.source + '" target="_blank">' + baseUrl + '</a>';
+		return html;
 	}
 });
