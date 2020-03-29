@@ -370,7 +370,7 @@ var data =  [
 			"website": "theorycoffeeco.com/shop",
 			"facebook": null,
 			"twitter": null,
-			"source": "https://www.theorycoffeeco.com/shop/mill-king-1-milk",
+			"source": "https://www.theorycoffeeco.com/shop",
 			"latlng": [29.508492, -98.457497]
 		},
 		{
