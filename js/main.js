@@ -99,7 +99,7 @@ $(document).ready(function () {
 				data: "name"
 			},
 			{
-				width: "50%", data: "description"
+				width: "45%", data: "description"
 			},
 			{
 				orderable: false,
@@ -121,9 +121,13 @@ $(document).ready(function () {
 
 	function createContactHtml(data){
 		var html = "";
-		if (data.streetAddress !== null) {
-			html += '<span><strong>Address:</strong> ' + data.streetAddress + '</span><br>';
+		if (data.streetAddress !== null && data.city !== null) {
+			html += '<span><strong>Address:</strong> ' + data.streetAddress + ", " + data.city + '</span><br>';
+		} else if (data.streetAddress !== null){
+			html += '<span><strong>Address:</strong> ' + data.streetAddress +  '</span><br>';
+
 		}
+
 
 		if (data.phoneNumber !== null) {
 			html += '<span><strong>Phone:</strong> ' + data.phoneNumber + '</span><br>';
