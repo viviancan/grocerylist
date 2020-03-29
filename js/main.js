@@ -93,7 +93,12 @@ $(document).ready(function () {
 	$('#example').DataTable({
 		data: data, responsive: true,
 		pageLength: 50,
+		order: [[ 1, "asc"]],
 		columns: [
+			{
+				width: "5%",
+				data: "dateAdded"
+			},
 			{
 				width: "15%",
 				data: "name"

@@ -1,6 +1,7 @@
 var data =  [
 		{
 			"id": 2,
+			"dateAdded": "03/28",
 			"name": "Big Lou's Pizza",
 			"phoneNumber": "(210) 337-0707",
 			"streetAddress": "2048 S. WW White Rd.",
@@ -17,6 +18,7 @@ var data =  [
 		},
 		{
 			"id": 3,
+			"dateAdded": "03/28",
 			"name": "Cheesy Jane's",
 			"phoneNumber": "(210) 826-0800",
 			"streetAddress": "4200 Broadway St",
@@ -33,6 +35,7 @@ var data =  [
 		},
 		{
 			"id": 4,
+			"dateAdded": "03/28",
 			"name": "Cookhouse Restaurant",
 			"phoneNumber": "(210) 320-8211",
 			"streetAddress": "720 E Misteltoe Ave",
@@ -49,6 +52,7 @@ var data =  [
 		},
 		{
 			"id": 5,
+			"dateAdded": "03/28",
 			"name": "Food Related",
 			"phoneNumber": null,
 			"streetAddress": "17401 Triton",
@@ -65,6 +69,7 @@ var data =  [
 		},
 		{
 			"id": 6,
+			"dateAdded": "03/28",
 			"name": "Frutería-Botanero",
 			"phoneNumber": "(210) 251-3104",
 			"streetAddress": "1401 S. Flores St",
@@ -81,6 +86,7 @@ var data =  [
 		},
 		{
 			"id": 7,
+			"dateAdded": "03/28",
 			"name": "Grayze",
 			"phoneNumber": "(210) 481-8776",
 			"streetAddress": "521 E. Grayson St",
@@ -97,6 +103,7 @@ var data =  [
 		},
 		{
 			"id": 8,
+			"dateAdded": "03/28",
 			"name": "J-Prime Steakhouse",
 			"phoneNumber": "(210) 764-1604",
 			"streetAddress": "1401 N. Loop 1604 W.",
@@ -113,6 +120,7 @@ var data =  [
 		},
 		{
 			"id": 9,
+			"dateAdded": "03/28",
 			"name": "Jason's Deli",
 			"phoneNumber": null,
 			"streetAddress": null,
@@ -129,6 +137,7 @@ var data =  [
 		},
 		{
 			"id": 21,
+			"dateAdded": "03/28",
 			"name": "Jet-Setter",
 			"phoneNumber": "(210) 272-0457",
 			"streetAddress": "229 E. Houston St",
@@ -145,6 +154,7 @@ var data =  [
 		},
 		{
 			"id": 10,
+			"dateAdded": "03/28",
 			"name": "La Gloria",
 			"phoneNumber": "(210) 272-0457",
 			"streetAddress": "100 E. Grayson St.",
@@ -161,6 +171,7 @@ var data =  [
 		},
 		{
 			"id": 11,
+			"dateAdded": "03/28",
 			"name": "La Panadería",
 			"phoneNumber": "(210) 592-6264",
 			"streetAddress": "301 E. Houston St",
@@ -177,6 +188,7 @@ var data =  [
 		},
 		{
 			"id": 12,
+			"dateAdded": "03/28",
 			"name": "Larder",
 			"phoneNumber": "(210) 448-8355",
 			"streetAddress": "136 E. Grayson St",
@@ -193,6 +205,7 @@ var data =  [
 		},
 		{
 			"id": 13,
+			"dateAdded": "03/28",
 			"name": "Mi Tierra",
 			"phoneNumber": "(210) 225-1262",
 			"streetAddress": "218 Produce Row",
@@ -209,6 +222,7 @@ var data =  [
 		},
 		{
 			"id": 14,
+			"dateAdded": "03/28",
 			"name": "Picnikins Cafe & Catering",
 			"phoneNumber": null,
 			"streetAddress": null,
@@ -225,6 +239,7 @@ var data =  [
 		},
 		{
 			"id": 15,
+			"dateAdded": "03/28",
 			"name": "The Rustic",
 			"phoneNumber": "(210) 245-7500",
 			"streetAddress": "17619 La Cantera Parkway, Suite 204",
@@ -241,6 +256,7 @@ var data =  [
 		},
 		{
 			"id": 16,
+			"dateAdded": "03/28",
 			"name": "Saltgrass Steak House",
 			"phoneNumber": null,
 			"streetAddress": null,
@@ -257,6 +273,7 @@ var data =  [
 		},
 		{
 			"id": 17,
+			"dateAdded": "03/28",
 			"name": "Sangria on the Burg",
 			"phoneNumber": "(210) 265-3763",
 			"streetAddress": "5115 Fredericksburg Road",
@@ -273,6 +290,7 @@ var data =  [
 		},
 		{
 			"id": 18,
+			"dateAdded": "03/28",
 			"name": "Still Golden Social House",
 			"phoneNumber": "(210) 616-2212",
 			"streetAddress": "1900 Broadway",
@@ -289,6 +307,7 @@ var data =  [
 		},
 		{
 			"id": 19,
+			"dateAdded": "03/28",
 			"name": "Whiskey Cake",
 			"phoneNumber": "(210) 236-8095",
 			"streetAddress": "15900 La Cantera Parkway",
@@ -305,6 +324,7 @@ var data =  [
 		},
 		{
 			"id": 20,
+			"dateAdded": "03/28",
 			"name": "The Winchester",
 			"phoneNumber": "(210) 721-7762",
 			"streetAddress": "5148 Broadway St.",
@@ -321,6 +341,7 @@ var data =  [
 		},
 		{
 			"id": 21,
+			"dateAdded": "03/28",
 			"name": "The People's Nite Market @ The Dakota San Antonio",
 			"phoneNumber": null,
 			"streetAddress": "433 S Hackberry",
@@ -337,6 +358,7 @@ var data =  [
 		},
 		{
 			"id": 21,
+			"dateAdded": "03/28",
 			"name": "Theory Coffee Co",
 			"phoneNumber": null,
 			"streetAddress": "2437 Nacogdoches Rd",
@@ -353,6 +375,7 @@ var data =  [
 		},
 		{
 			"id": 22,
+			"dateAdded": "03/28",
 			"name": "Fralo's Pizza",
 			"phoneNumber": "(210) 698-6616",
 			"streetAddress": "23651 W Interstate 10",
@@ -369,6 +392,7 @@ var data =  [
 		},
 		{
 			"id": 23,
+			"dateAdded": "03/28",
 			"name": "Nicha’s Comida Mexicana",
 			"phoneNumber": "(210) 922-3330",
 			"streetAddress": null,
@@ -412,6 +436,7 @@ var data =  [
 		},
 		{
 			"id": 24,
+			"dateAdded": "03/28",
 			"name": "Halcyon Southtown",
 			"phoneNumber": "(210) 277-7045",
 			"streetAddress": "1414 S Alamo St",
@@ -429,6 +454,7 @@ var data =  [
 		},
 		{
 			"id": 25,
+			"dateAdded": "03/28",
 			"name": "Hearthstone Bakery Cafe",
 			"phoneNumber": "(210) 826-5668",
 			"streetAddress": null,
@@ -463,6 +489,7 @@ var data =  [
 		},
 		{
 			"id": 26,
+			"dateAdded": "03/29",
 			"name": "Mako's on the Creek",
 			"phoneNumber": "(830) 730-5947",
 			"streetAddress": "169 Buffalo Pl",
