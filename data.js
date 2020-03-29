@@ -52,16 +52,16 @@ var data =  [
 			"name": "Food Related",
 			"phoneNumber": null,
 			"streetAddress": "17401 Triton",
-			"city": null,
+			"city": "Schertz",
 			"state": "TX",
-			"zipCode": null,
+			"zipCode": 78154,
 			"county": null,
-			"description": "The San Antonio-based food wholesaler has added online ordering and curbside pickup of a wide range of staples at its Schertz warehouse.",
+			"description": "The San Antonio-based food wholesaler has added online ordering and curbside pickup of a wide range of staples at its Schertz warehouse. Food Related is now open for Curbside Order Pickup at our San Antonio Warehouse. No minimum orders or fees.",
 			"website": "foodrelated.com",
 			"facebook": null,
 			"twitter": null,
 			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php",
-			"latlng": null
+			"latlng": [29.599898,-98.280842]
 		},
 		{
 			"id": 6,
@@ -460,6 +460,23 @@ var data =  [
 					"latlng": [29.506185, -98.434082]
 				}
 			]
+		},
+		{
+			"id": 26,
+			"name": "Mako's on the Creek",
+			"phoneNumber": "(830) 730-5947",
+			"streetAddress": "169 Buffalo Pl",
+			"city": "Cibolo",
+			"state": "TX",
+			"zipCode": 78108,
+			"county": null,
+			"description": " All-Purpose Flour (5 LB) - $3.00 Dozen Eggs (XL Grade AA) - $3.50 Loaf White Bread - $2.00 Loaf Wheat Bread - $2.50 Flour Tortillas (20 pack) - $2.50 Long Grain White Rice (5 LB) - $5.00 Unsalted Butter (1 LB) - $4.00 Spaghetti (1 LB) - $2.00 Chicken Breast (Skinless Boneless - by the LB) - $3.00 Ground Beef (by the LB) - $4.00 Sharp Cheddar (1.5 LB) - $6.00 Heavy Whipping Cream (QT) - $5.50 Idaho Potatoes (5 LB) - $5.00 Spring Mix (1 LB) - $4.50 Orange Juice (1/2 GAL) - $6.00 Apple Juice (6 pack of 12 oz) - $12.00 and more....",
+			"website": "makostx.com",
+			"facebook": "makosonthecreek",
+			"twitter": null,
+			"source": "http://www.makostx.com/grocery",
+			"latlng": [29.557694, -98.242199],
+			"hasMultipleLocations": false,
 		}
 	]
 
