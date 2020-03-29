@@ -139,7 +139,7 @@ $(document).ready(function () {
 		}
 
 		if (data.website !== null) {
-			html += '<span><strong>Website:</strong> </span><a href="http://' + data.website + '" target="_blank" rel="noopener">' + data.website + '</a></span><br>';
+				html += '<span><strong>Website:</strong> </span><a href="http://' + data.website + '" target="_blank" rel="noopener">' + data.website + '</a></span><br>';
 		}
 
 		if (data.facebook !== null) {
@@ -154,8 +154,8 @@ $(document).ready(function () {
 		var html = "";
 		if (data.source !== null) {
 			var url = new URL(data.source);
-			var baseUrl = "www." + (url.origin).split("www.")[1];
-			html = '<a href="' + data.source + '" target="_blank" rel="noopener">' + baseUrl + '</a>';
+			// var baseUrl = "www." + (url.origin).split("www.")[1];
+			html = '<a href="' + url.href + '" target="_blank" rel="noopener">' + url.hostname + '</a>';
 		}
 
 		return html;
