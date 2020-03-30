@@ -1,6 +1,6 @@
 .idea/
 *.iml
 
-ignore.js
+ignore*
 
 js/keys.js
