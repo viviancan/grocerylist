@@ -588,7 +588,7 @@ var data =  [
 			"state": "TX",
 			"zipCode": null,
 			"county": "Bexar",
-			"description": "Curbside and Pick Up only. FIRST COME FIRST SERVE. Kit Includes: 2lb of Ground Beef,2lb of Chicken Breast,Select Produce, 2 Bottles of Wine (.75 l),2 Rolls of Toilet Paper,15 Eggs,Gallon of Milk,1 Loaf of Bread, 1lb of Butter $50. Magnum Bottles: Cabernet, Sangria, Chardonnay, $20 each. Multiple Locations.",
+			"description": "Curbside and Pick Up only. FIRST COME FIRST SERVE. Kit Includes: 2lb of Ground Beef, 2lb of Chicken Breast, Select Produce, 2 Bottles of Wine (.75 l), 2 Rolls of Toilet Paper, 15 Eggs,Gallon of Milk, 1 Loaf of Bread, 1lb of Butter $50. Magnum Bottles: Cabernet, Sangria, Chardonnay, $20 each. Multiple Locations.",
 			"website": "stonewerks.com",
 			"facebook": "StoneWerks",
 			"twitter": null,
