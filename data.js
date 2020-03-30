@@ -9,11 +9,11 @@ var data =  [
 			"state": "TX",
 			"zipCode": "78222",
 			"county": "Bexar",
-			"description":  "Bodega stocked with meat, produce, bread, rice, beans, toilet paper and more",
+			"description":  "Bodega stocked with meat, produce, bread, rice, beans, toilet paper and more. Limited to 50 a day. Call 210.337.0707",
 			"website": "biglouspizza-satx.com",
-			"facebook": null,
+			"facebook": "biglouspizza",
 			"twitter": null,
-			"source": ["https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"],
+			"source": ["https://www.facebook.com/biglouspizza/posts/3534962589907669","https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"],
 			"latlng": [28.5756184,-81.5332813]
 		},
 		{
@@ -28,9 +28,9 @@ var data =  [
 			"county": "Bexar",
 			"description":  "Dairy, eggs, meat, poultry, fruit, vegetables, toilet paper, laundry detergent and more",
 			"website": "cheesyjanes.com",
-			"facebook": null,
+			"facebook": "cheesyjanes",
 			"twitter": null,
-			"source": ["https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"],
+			"source": ["https://www.facebook.com/cheesyjanes/posts/2953872358002186, https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"],
 			"latlng": [29.465100, -98.463730]
 		},
 		{
@@ -43,11 +43,11 @@ var data =  [
 			"state": "TX",
 			"zipCode": null,
 			"county": "Bexar",
-			"description":  "New website provides options to buy meal kits with ingredients and recipes. Also sells grocery kits with meat, dairy and produce. Live instructional videos from the staff are scheduled throughout the week. ",
+			"description":  "We are here for you SA! We've got your favorite Po'boys, classic Cookhouse dishes and meal + grocery kits all delivered to you curbside. Check out all of our offerings by visiting our website and learn more about our meal + grocery kits by...  ",
 			"website": "cookhouseathome.com",
-			"facebook": null,
+			"facebook": "cookhouserestaurant",
 			"twitter": null,
-			"source": ["https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"],
+			"source": ["https://www.facebook.com/cookhouserestaurant/posts/1344214172429110, https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"],
 			"latlng": [29.453090, -98.485210]
 		},
 		{
@@ -60,11 +60,11 @@ var data =  [
 			"state": "TX",
 			"zipCode": 78154,
 			"county": null,
-			"description": "The San Antonio-based food wholesaler has added online ordering and curbside pickup of a wide range of staples at its Schertz warehouse. Food Related is now open for Curbside Order Pickup at our San Antonio Warehouse. No minimum orders or fees.",
+			"description": "Food Related is now open for Curbside Order Pickup at our San Antonio Warehouse. No minimum orders or fees.",
 			"website": "foodrelated.com",
-			"facebook": null,
+			"facebook": "FoodRelatedFam",
 			"twitter": null,
-			"source": ["https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"],
+			"source": ["https://www.facebook.com/FoodRelatedFam/posts/3112994685380286","https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"],
 			"latlng": [29.599898,-98.280842]
 		},
 		{
@@ -79,7 +79,7 @@ var data =  [
 			"county": "Bexar",
 			"description": "Toilet paper, fresh meat, beans, rice and other staples",
 			"website": "thefruteria.com",
-			"facebook": null,
+			"facebook": "thefruteriasa",
 			"twitter": null,
 			"source": ["https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"],
 			"latlng": [29.410070,-98.501820]
@@ -94,11 +94,11 @@ var data =  [
 			"state": "TX",
 			"zipCode": null,
 			"county": "Bexar",
-			"description": "Order online and pick up packages of milk, eggs, beans, rice, bacon, coffee, toilet paper, sanitizing wipes and more for $35.",
+			"description": "Need groceries? Grayze has you covered! Go to www.GrayzeOnGrayson.com and click Order Now. We have a limited supply, first come first served and we'll restock asap. 1 Gallon of Whole Milk, 15 eggs, 1lb butter, 1lb beans, 1lb rice, 1lb bacon, 1loaf of bread, 2small packs of coffee, 1pack of 72 sani wipes, 2rolls of Toilet Paper. Pick up for $35",
 			"website": "grayzeongrayson.com",
-			"facebook": null,
+			"facebook": "GrayzeOnGrayson",
 			"twitter": null,
-			"source": ["https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"],
+			"source": ["https://www.facebook.com/GrayzeOnGrayson/photos/a.1659647050970028/2544991235768934","https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"],
 			"latlng": [29.443390,-98.474660]
 		},
 		{
@@ -128,9 +128,9 @@ var data =  [
 			"state": "TX",
 			"zipCode": null,
 			"county": "Bexar",
-			"description": "Meat, cheese, fresh produce, eggs, bread and more in addition to family meal packages of prepared food at all locations",
+			"description": "Meat, cheese, fresh produce, eggs, bread and more.",
 			"website": "jasonsdeli.com",
-			"facebook": null,
+			"facebook": "JasonsDeli",
 			"twitter": null,
 			"source": ["https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"],
 			"latlng": null
@@ -147,7 +147,7 @@ var data =  [
 			"county": "Bexar",
 			"description": "Eggs, milk, fresh produce, pasta and more",
 			"website": "jet-settersa.com",
-			"facebook": null,
+			"facebook": "jetsettersa",
 			"twitter": null,
 			"source": ["https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"],
 			"latlng": [29.426782, -98.490137]
@@ -162,11 +162,11 @@ var data =  [
 			"state": "TX",
 			"zipCode": null,
 			"county": "Bexar",
-			"description": "Toilet paper, fresh meat, beans, rice and other staples 12-5 p.m.",
+			"description": "Toilet paper, fresh meat, beans, rice and other staples 12-5 p.m. PLEASE remember to stand 6ft apart if you are in line. Only credit/debit card payments will be accepted.",
 			"website": "lagloria.com",
-			"facebook": null,
+			"facebook": "lagloriapearl",
 			"twitter": null,
-			"source": ["https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"],
+			"source": ["https://www.facebook.com/lagloriapearl/posts/3138402252876693","https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"],
 			"latlng": [29.444245, -98.481233]
 		},
 		{
@@ -179,11 +179,11 @@ var data =  [
 			"state": "TX",
 			"zipCode": null,
 			"county": "Bexar",
-			"description": "Selling baskets of bread, eggs, beans, milk, sanitizing wipes, a concha and more for $25.",
+			"description": "This “Support Locals Basket” directly helps support our staff. For $25 it includes: 1 loaf of Sourdough Bread, 1 piece of Pan Dulce Concha, 30 eggs, 2 lbs black beans, and 1 gallon of milk. ",
 			"website": "lapanaderia.com",
-			"facebook": null,
+			"facebook": "lapanaderia",
 			"twitter": null,
-			"source": ["https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"],
+			"source": ["https://www.facebook.com/lapanaderia/photos/a.404339402961722/3024066530988983/?type=3","https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"],
 			"latlng": [29.426618, -98.489567]
 		},
 		{
@@ -198,9 +198,9 @@ var data =  [
 			"county": "Bexar",
 			"description": "Dairy, eggs, produce, meat, breads, prepared foods, sauces and more available for pickup at the store or Hotel Emma valet. ",
 			"website": "larderatemma.com",
-			"facebook": null,
+			"facebook": "LarderAtEmma",
 			"twitter": null,
-			"source": ["https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"],
+			"source": ["https://www.larderatemma.com/","https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"],
 			"latlng": [29.442822, -98.480901]
 		},
 		{
@@ -230,11 +230,11 @@ var data =  [
 			"state": "TX",
 			"zipCode": null,
 			"county": "Bexar",
-			"description": "Online ordering for home grocery delivery (starting at $6) of fresh meat, produce and toilet paper in the San Antonio area.",
+			"description": "Allow us to deliver fresh produce, breads, eggs, deli meats, fresh meats. cheeses and some of our signature prepared items.",
 			"website": "picnikins.com",
-			"facebook": null,
+			"facebook": "PicnikinsPatioCafe",
 			"twitter": null,
-			"source": ["https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"],
+			"source": ["https://www.restaurantcateringsystems.com/picnikinscatering/?form=home","https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"],
 			"latlng": null
 		},
 		{
@@ -249,7 +249,7 @@ var data =  [
 			"county": "Bexar",
 			"description": "Menu packages of fresh meats, poultry and seafood along with a bag of vegetables, fruit and butter for $65 available for takeout when ordered by phone 11 a.m.-8 p.m. daily.",
 			"website": "therustic.com",
-			"facebook": null,
+			"facebook": "therusticsa",
 			"twitter": null,
 			"source": ["https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"],
 			"latlng": [29.610231, -98.598609]
@@ -281,11 +281,12 @@ var data =  [
 			"state": "TX",
 			"zipCode": null,
 			"county": "Bexar",
-			"description": "Quarantine packages of milk, beans, eggs, rice and toilet paper, $25 during normal business hours",
+			"description": "Quarantine Packages Available. To order please call 210-265-3763. The lines will be busy. Please keep trying... Thanks!!! $25 - 1 gallon milk, 15 eggs, 5lbs beans, 5lbs rice, 4 rolls TP",
 			"website": "sangriaontheburg.com",
-			"facebook": null,
+			"facebook": "sangriaontheburg",
 			"twitter": null,
-			"source": ["https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"],
+			"source": ["https://www.facebook.com/sangriaontheburg/posts/3529342867140585","https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"],
+
 			"latlng": [29.501578, -98.559825]
 		},
 		{
@@ -298,11 +299,11 @@ var data =  [
 			"state": "TX",
 			"zipCode": null,
 			"county": "Bexar",
-			"description": "Orders of rice, beans, meat, produce and more available for free pickup of $4 delivery in a 5-mine radius. Also delivering beer, wine and cocktail kits. Details at Facebook: @StillGoldenSH.",
+			"description": "Orders of rice, beans, meat, produce and more available for free pickup of $4 delivery in a 5-mine radius. Also delivering beer, wine and cocktail kits. Email orders to StillHoldenSocialHouse@gmail.com. TXT orders to 210-802-5724.",
 			"website": "stillgoldensa.com",
-			"facebook": null,
+			"facebook": "StillGoldenSH",
 			"twitter": null,
-			"source": ["https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"],
+			"source": ["https://www.facebook.com/StillGoldenSH/posts/2761922120591866","https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"],
 			"latlng": [29.443622, -98.476223]
 		},
 		{
@@ -317,7 +318,7 @@ var data =  [
 			"county": "Bexar",
 			"description": " 'Survival kits' of beef, chicken, dairy products, fresh vegetables, eggs and more that changes daily. Check Facebook: @WhiskeyCakeSa for daily kit details. Pickup from car in line that forms at 11 a.m.",
 			"website": "whiskeycake.com",
-			"facebook": null,
+			"facebook": "WhiskeyCakeSa",
 			"twitter": null,
 			"source": ["https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"],
 			"latlng": [29.593067, -98.615641]
@@ -383,7 +384,7 @@ var data =  [
 			"state": "TX",
 			"zipCode": 78257,
 			"county": "Bexar",
-			"description": "Along with pizza for delivery and curbside pickup, this Northwest Side pizza eatery is providing specials on eggs, produce and other grocery items daily. Follow their instagram page for updates on what’s available each day. Orders can be made between 10 a.m.-10 p.m.",
+			"description": "Eggs, fruit, vegetables, and more.",
 			"website": "fralos.com",
 			"facebook": "fralospizza",
 			"twitter": null,
@@ -533,7 +534,7 @@ var data =  [
 			"state": "TX",
 			"zipCode": null,
 			"county": null,
-			"description": "Texas Roadhouse is offering a variety of steaks, including ribeye, strips, sirloin and filet, restaurant officials said. Guests are encouraged to call the restaurant to place an order.",
+			"description": "Texas Roadhouse is offering a variety of steaks, including ribeye, strips, sirloin and filet. Guests are encouraged to call the restaurant to place an order.",
 			"website": "texasroadhouse.com",
 			"facebook": "texasroadhouse",
 			"twitter": null,

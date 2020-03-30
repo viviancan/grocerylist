@@ -92,7 +92,7 @@ $(document).ready(function () {
 	//Creates dataTable table
 	$('#example').DataTable({
 		data: data, responsive: true,
-		pageLength: 50,
+		pageLength: 25,
 		order: [[ 1, "asc"]],
 		columns: [
 			{
