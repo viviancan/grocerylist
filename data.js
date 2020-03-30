@@ -613,6 +613,42 @@ var data =  [
 			"source": ["https://www.facebook.com/BrothersProduce.Austin/posts/3137917682927493"],
 			"latlng": null,
 			"hasMultipleLocations": true
+		},
+		{
+			"id": 32,
+			"dateAdded": "03/30",
+			"name": "Four Kings Bakery",
+			"phoneNumber": "(210) 870-7535",
+			"streetAddress": "2053 Universal City Blvd",
+			"city": "Universal City",
+			"state": "TX",
+			"zipCode": 78148,
+			"county": null,
+			"description": "Check Facebook for daily specials. They partner with their produce company and will mention when they sell eggs, bread, milk, butter, sugar, flour, ground beef, and produce variety boxes to order & pick up. You can do curbside service - call and tell them what you want, pay over phone and they will take it out to your car.",
+			"website": null,
+			"facebook": "FourKingsBakery",
+			"twitter": null,
+			"source": ["https://www.facebook.com/pg/FourKingsBakery/"],
+			"latlng": [29.554881, -98.310031],
+			"hasMultipleLocations": false
+		},
+		{
+			"id": 33,
+			"dateAdded": "03/30",
+			"name": "The Rustic Bean",
+			"phoneNumber": "(210) 693-3520",
+			"streetAddress": "30690 Blanco Road",
+			"city": "Bulverde",
+			"state": "TX",
+			"zipCode": 78163,
+			"county": null,
+			"description": "Milk, fruit, vegetables, sugar, flour, bread, dairy, and more. Check Facebook for details.",
+			"website": null,
+			"facebook": "therusticbeanonblanco",
+			"twitter": null,
+			"source": ["https://www.facebook.com/therusticbeanonblanco/posts/641073996743910"],
+			"latlng": [29.750923, -98.512414],
+			"hasMultipleLocations": false
 		}
 	]
 
