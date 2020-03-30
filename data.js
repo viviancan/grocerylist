@@ -13,7 +13,7 @@ var data =  [
 			"website": "biglouspizza-satx.com",
 			"facebook": null,
 			"twitter": null,
-			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php",
+			"source": ["https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"],
 			"latlng": [28.5756184,-81.5332813]
 		},
 		{
@@ -30,7 +30,7 @@ var data =  [
 			"website": "cheesyjanes.com",
 			"facebook": null,
 			"twitter": null,
-			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php",
+			"source": ["https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"],
 			"latlng": [29.465100, -98.463730]
 		},
 		{
@@ -47,7 +47,7 @@ var data =  [
 			"website": "cookhouseathome.com",
 			"facebook": null,
 			"twitter": null,
-			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php",
+			"source": ["https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"],
 			"latlng": [29.453090, -98.485210]
 		},
 		{
@@ -64,7 +64,7 @@ var data =  [
 			"website": "foodrelated.com",
 			"facebook": null,
 			"twitter": null,
-			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php",
+			"source": ["https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"],
 			"latlng": [29.599898,-98.280842]
 		},
 		{
@@ -81,7 +81,7 @@ var data =  [
 			"website": "thefruteria.com",
 			"facebook": null,
 			"twitter": null,
-			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php",
+			"source": ["https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"],
 			"latlng": [29.410070,-98.501820]
 		},
 		{
@@ -98,7 +98,7 @@ var data =  [
 			"website": "grayzeongrayson.com",
 			"facebook": null,
 			"twitter": null,
-			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php",
+			"source": ["https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"],
 			"latlng": [29.443390,-98.474660]
 		},
 		{
@@ -115,7 +115,7 @@ var data =  [
 			"website": "jprimesteakhouse.com",
 			"facebook": null,
 			"twitter": null,
-			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php",
+			"source": ["https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"],
 			"latlng": [29.583780, -98.638440]
 		},
 		{
@@ -132,7 +132,7 @@ var data =  [
 			"website": "jasonsdeli.com",
 			"facebook": null,
 			"twitter": null,
-			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php",
+			"source": ["https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"],
 			"latlng": null
 		},
 		{
@@ -149,7 +149,7 @@ var data =  [
 			"website": "jet-settersa.com",
 			"facebook": null,
 			"twitter": null,
-			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php",
+			"source": ["https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"],
 			"latlng": [29.426782, -98.490137]
 		},
 		{
@@ -166,7 +166,7 @@ var data =  [
 			"website": "lagloria.com",
 			"facebook": null,
 			"twitter": null,
-			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php",
+			"source": ["https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"],
 			"latlng": [29.444245, -98.481233]
 		},
 		{
@@ -183,7 +183,7 @@ var data =  [
 			"website": "lapanaderia.com",
 			"facebook": null,
 			"twitter": null,
-			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php",
+			"source": ["https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"],
 			"latlng": [29.426618, -98.489567]
 		},
 		{
@@ -200,7 +200,7 @@ var data =  [
 			"website": "larderatemma.com",
 			"facebook": null,
 			"twitter": null,
-			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php",
+			"source": ["https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"],
 			"latlng": [29.442822, -98.480901]
 		},
 		{
@@ -217,7 +217,7 @@ var data =  [
 			"website": "mitierracafe.com",
 			"facebook": null,
 			"twitter": null,
-			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php",
+			"source": ["https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"],
 			"latlng": [29.425037, -98.499715]
 		},
 		{
@@ -234,7 +234,7 @@ var data =  [
 			"website": "picnikins.com",
 			"facebook": null,
 			"twitter": null,
-			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php",
+			"source": ["https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"],
 			"latlng": null
 		},
 		{
@@ -251,7 +251,7 @@ var data =  [
 			"website": "therustic.com",
 			"facebook": null,
 			"twitter": null,
-			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php",
+			"source": ["https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"],
 			"latlng": [29.610231, -98.598609]
 		},
 		{
@@ -268,7 +268,7 @@ var data =  [
 			"website": "saltgrass.com",
 			"facebook": null,
 			"twitter": null,
-			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php",
+			"source": ["https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"],
 			"latlng": null
 		},
 		{
@@ -285,7 +285,7 @@ var data =  [
 			"website": "sangriaontheburg.com",
 			"facebook": null,
 			"twitter": null,
-			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php",
+			"source": ["https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"],
 			"latlng": [29.501578, -98.559825]
 		},
 		{
@@ -302,7 +302,7 @@ var data =  [
 			"website": "stillgoldensa.com",
 			"facebook": null,
 			"twitter": null,
-			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php",
+			"source": ["https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"],
 			"latlng": [29.443622, -98.476223]
 		},
 		{
@@ -319,7 +319,7 @@ var data =  [
 			"website": "whiskeycake.com",
 			"facebook": null,
 			"twitter": null,
-			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php",
+			"source": ["https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"],
 			"latlng": [29.593067, -98.615641]
 		},
 		{
@@ -336,7 +336,7 @@ var data =  [
 			"website": "thewinchestersanantonio.com",
 			"facebook": "thewinchester78209",
 			"twitter": null,
-			"source": "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php",
+			"source": ["https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"],
 			"latlng": [29.474298, -98.462291]
 		},
 		{
@@ -353,7 +353,7 @@ var data =  [
 			"website": null,
 			"facebook": "thepeoplesnitemarket",
 			"twitter": null,
-			"source": "https://www.facebook.com/thepeoplesnitemarket/posts/2318467941786922",
+			"source": ["https://www.facebook.com/thepeoplesnitemarket/posts/2318467941786922"],
 			"latlng": [29.416120, -98.473440]
 		},
 		{
@@ -370,7 +370,7 @@ var data =  [
 			"website": "theorycoffeeco.com/shop",
 			"facebook": null,
 			"twitter": null,
-			"source": "https://www.theorycoffeeco.com/shop",
+			"source": ["https://www.theorycoffeeco.com/shop"],
 			"latlng": [29.508492, -98.457497]
 		},
 		{
@@ -387,7 +387,7 @@ var data =  [
 			"website": "fralos.com",
 			"facebook": "fralospizza",
 			"twitter": null,
-			"source": "https://www.sanantoniomag.com/restaurants-help-provide-pantry-staples-during-coronavirus/",
+			"source": ["https://www.sanantoniomag.com/restaurants-help-provide-pantry-staples-during-coronavirus/"],
 			"latlng": [29.661260, -98.627959]
 		},
 		{
@@ -404,7 +404,7 @@ var data =  [
 			"website": "nichas.com",
 			"facebook": "nichascomidamexicana",
 			"twitter": null,
-			"source": "https://www.facebook.com/nichascomidamexicana/posts/3449182845098819",
+			"source": ["https://www.facebook.com/nichascomidamexicana/posts/3449182845098819"],
 			"latlng": [29.661260, -98.627959],
 			"hasMultipleLocations": true,
 			"locations":[
@@ -448,7 +448,7 @@ var data =  [
 			"website": "halcyoncoffeebar.com",
 			"facebook": "HalcyonSouthtown",
 			"twitter": null,
-			"source": "https://www.facebook.com/HalcyonSouthtown/posts/3088196057897849",
+			"source": ["https://www.facebook.com/HalcyonSouthtown/posts/3088196057897849"],
 			"latlng": [29.410001, -98.495465],
 			"hasMultipleLocations": false,
 		},
@@ -466,7 +466,7 @@ var data =  [
 			"website": "hearthstonebakerycafe.com",
 			"facebook": "Hearthstone-Bakery-Cafe-128818360498502",
 			"twitter": null,
-			"source": "https://www.facebook.com/permalink.php?story_fbid=2940957732617870&id=128818360498502",
+			"source": ["https://www.facebook.com/permalink.php?story_fbid=2940957732617870&id=128818360498502"],
 			"latlng": null,
 			"hasMultipleLocations": true,
 			"locations":[
@@ -501,7 +501,7 @@ var data =  [
 			"website": "makostx.com",
 			"facebook": "makosonthecreek",
 			"twitter": null,
-			"source": "http://www.makostx.com/grocery",
+			"source": ["http://www.makostx.com/grocery"],
 			"latlng": [29.557694, -98.242199],
 			"hasMultipleLocations": false,
 		},
@@ -519,7 +519,7 @@ var data =  [
 			"website": "billmillerbbq.com",
 			"facebook": "BillMillerBarBQ",
 			"twitter": null,
-			"source": "https://twitter.com/BillMillerBarBQ/status/1243900807734534151",
+			"source": ["https://twitter.com/BillMillerBarBQ/status/1243900807734534151"],
 			"latlng": null,
 			"hasMultipleLocations": false,
 		},
@@ -537,7 +537,7 @@ var data =  [
 			"website": "texasroadhouse.com",
 			"facebook": "texasroadhouse",
 			"twitter": null,
-			"source": "https://www.ksat.com/news/local/2020/03/28/texas-roadhouse-restaurants-selling-ready-to-grill-steaks/",
+			"source": ["https://www.ksat.com/news/local/2020/03/28/texas-roadhouse-restaurants-selling-ready-to-grill-steaks/"],
 			"latlng": null,
 			"hasMultipleLocations": true,
 		},
@@ -555,7 +555,7 @@ var data =  [
 			"website": "curedatpearl.com",
 			"facebook": "curedatpearl",
 			"twitter": null,
-			"source": "https://www.facebook.com/curedatpearl/posts/1336087859915916",
+			"source": ["https://www.facebook.com/curedatpearl/posts/1336087859915916", "https://therivardreport.com/these-locally-owned-eateries-offer-takeout-delivery-services"],
 			"latlng": [29.441942, -98.479010],
 			"hasMultipleLocations": false,
 		},
@@ -573,7 +573,7 @@ var data =  [
 			"website": "restaurantgwendolyn.com",
 			"facebook": "RestaurantGwendolyn",
 			"twitter": null,
-			"source": "https://www.facebook.com/RestaurantGwendolyn/posts/2858961304184116",
+			"source": ["https://www.facebook.com/RestaurantGwendolyn/posts/2858961304184116", "https://therivardreport.com/these-locally-owned-eateries-offer-takeout-delivery-services"],
 			"latlng": [29.428513, -98.491557],
 			"hasMultipleLocations": false,
 		}

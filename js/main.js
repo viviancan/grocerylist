@@ -126,13 +126,13 @@ $(document).ready(function () {
 
 	function createContactHtml(data){
 		var html = "";
+		html += '<div>';
 		if (data.streetAddress !== null && data.city !== null) {
 			html += '<span><strong>Address:</strong> ' + data.streetAddress + ", " + data.city + '</span><br>';
 		} else if (data.streetAddress !== null){
 			html += '<span><strong>Address:</strong> ' + data.streetAddress +  '</span><br>';
 
 		}
-
 
 		if (data.phoneNumber !== null) {
 			html += '<span><strong>Phone:</strong> ' + data.phoneNumber + '</span><br>';
@@ -145,6 +145,7 @@ $(document).ready(function () {
 		if (data.facebook !== null) {
 			html += '<span><strong>Facebook:</strong> </span><a href="http://facebook.com/' + data.facebook + '" target="_blank" rel="noopener">@' + data.facebook + '</a></span><br>';
 		}
+		html += '</div>';
 
 		return html;
 	}
@@ -153,9 +154,11 @@ $(document).ready(function () {
 		//https://stackoverflow.com/questions/44308685/want-to-split-a-string-after-a-certain-word
 		var html = "";
 		if (data.source !== null) {
-			var url = new URL(data.source);
-			// var baseUrl = "www." + (url.origin).split("www.")[1];
-			html = '<a href="' + url.href + '" target="_blank" rel="noopener">' + url.hostname + '</a>';
+			(data.source).forEach(function (source, index) {
+				var url = new URL(source);
+				// var baseUrl = "www." + (url.origin).split("www.")[1];
+				html += '<p><a href="' + url.href + '" target="_blank" rel="noopener">' + url.hostname + '</a></p>';
+			})
 		}
 
 		return html;
