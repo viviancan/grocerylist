@@ -17,6 +17,10 @@ body{
     color: white;
 }
 
+.nav-item{
+    padding: 8px;
+}
+
 /*#example_filter{*/
 /*    float:right;*/
 /*}*/
