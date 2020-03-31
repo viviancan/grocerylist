@@ -615,7 +615,7 @@ var data =  [
 			"hasMultipleLocations": true
 		},
 		{
-			"id": 32,
+			"id": 33,
 			"dateAdded": "03/30",
 			"name": "Four Kings Bakery",
 			"phoneNumber": "(210) 870-7535",
@@ -633,7 +633,7 @@ var data =  [
 			"hasMultipleLocations": false
 		},
 		{
-			"id": 33,
+			"id": 34,
 			"dateAdded": "03/30",
 			"name": "The Rustic Bean",
 			"phoneNumber": "(210) 693-3520",
@@ -649,6 +649,43 @@ var data =  [
 			"source": ["https://www.facebook.com/therusticbeanonblanco/posts/641073996743910"],
 			"latlng": [29.750923, -98.512414],
 			"hasMultipleLocations": false
+		},
+		{
+			"id": 35,
+			"dateAdded": "03/31",
+			"name": "Porter Poultry & Egg Company Inc.",
+			"phoneNumber": "(210) 433-5001",
+			"streetAddress": "5475 W US Highway 90",
+			"city": "San Antonio",
+			"state": "TX",
+			"zipCode": 78227,
+			"county": null,
+			"description": "Leg quarters, sausage, bacon, eggs, rice, beans, wings, and more. Call the office with any questions 210-433-5001.",
+			"website": null,
+			"facebook": "PorterPoultry",
+			"twitter": null,
+			"source": ["https://www.facebook.com/PorterPoultry/posts/2858735730841446"],
+			"latlng": [29.408203, -98.598850],
+			"hasMultipleLocations": false
+		},
+		{
+			"id": 36,
+			"dateAdded": "03/31",
+			"name": "Magnolia Pancake House",
+			"phoneNumber": "(210) 496-0828",
+			"streetAddress": null,
+			"city": "San Antonio",
+			"state": "TX",
+			"zipCode": null,
+			"county": null,
+			"description": "Multiple Locations - Eggs, milk, chocolate milk, avocados, & half & half. Check their online order form!",
+			"website": "magnoliapancakehaus.com",
+			"fullWebsite": "https://www.magnoliapancakehaus.com/",
+			"facebook": "MagnoliaPancakeHaus",
+			"twitter": null,
+			"source": ["https://www.magnoliapancakehaus.com/"],
+			"latlng": null,
+			"hasMultipleLocations": true
 		}
 	]
 
