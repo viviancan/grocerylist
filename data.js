@@ -821,25 +821,6 @@ var data =  [
 			"hasMultipleLocations": false
 		},
 		{
-			"id": 43,
-			"dateAdded": "03/31",
-			"name": "Tenko Ramen",
-			"phoneNumber": "(210) 267-2996",
-			"streetAddress": "312 Pearl Parkway, Building #6",
-			"city": "San Antonio",
-			"state": "TX",
-			"zipCode": null,
-			"county": null,
-			"description": "Offering Ramen, snacks, drinks and a variety of pantry items. Eggs, milk, toilet paper, onions, lettuce, cantaloupe, garlic, kale, zucchini, pasta, kewpie mayo, fish sauce and much more all available for curbside.",
-			"website": "tenkotogo.com",
-			"fullWebsite": "https://www.tenkotogo.com/#wryqpe",
-			"facebook": "TenkoRamen",
-			"twitter": null,
-			"source": ["https://www.facebook.com/TenkoRamen/photos/a.1030557760390456/2776703179109230/?type=3"],
-			"latlng": [29.442791, -98.480585],
-			"hasMultipleLocations": false
-		},
-		{
 			"id": 44,
 			"dateAdded": "03/31",
 			"name": "Stella Public House",
