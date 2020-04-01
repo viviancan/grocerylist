@@ -857,6 +857,25 @@ var data =  [
 			"source": ["https://www.facebook.com/OTTcakesuppliesSanAntonioCentral/posts/2733828563333575"],
 			"latlng": [29.519543, -98.508247],
 			"hasMultipleLocations": false
+		},
+		{
+			"id": 46,
+			"dateAdded": "04/01",
+			"name": "Groomers Seafood",
+			"phoneNumber": "(210) 377-3474",
+			"streetAddress": "9801 McCullough Ave",
+			"city": "San Antonio",
+			"state": "TX",
+			"zipCode": 78213,
+			"county": null,
+			"description": "Fish, Poultry, Beef, Produce, Eggs, Toilet Paper, and more.",
+			"website": "groomerseafood.com",
+			"fullWebsite": "https://www.mercato.com/shop/groomers-seafood-san-antonio",
+			"facebook": "GroomersSeafood",
+			"twitter": null,
+			"source": ["https://www.facebook.com/GroomersSeafood/"],
+			"latlng": [29.530117, -98.489858],
+			"hasMultipleLocations": false
 		}
 	]
 
