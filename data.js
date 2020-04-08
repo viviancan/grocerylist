@@ -30,12 +30,12 @@ var data =  [
 			"website": "cheesyjanes.com",
 			"facebook": "cheesyjanes",
 			"twitter": null,
-			"source": ["https://www.facebook.com/cheesyjanes/posts/2953872358002186, https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"],
+			"source": ["https://www.facebook.com/cheesyjanes/posts/2953872358002186", "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"],
 			"latlng": [29.465100, -98.463730]
 		},
 		{
 			"id": 4,
-			"dateAdded": "03/28",
+			"dateAdded": "04/08",
 			"name": "Cookhouse Restaurant",
 			"phoneNumber": "(210) 320-8211",
 			"streetAddress": "720 E Misteltoe Ave",
@@ -43,11 +43,12 @@ var data =  [
 			"state": "TX",
 			"zipCode": null,
 			"county": "Bexar",
-			"description":  "We are here for you SA! We've got your favorite Po'boys, classic Cookhouse dishes and meal + grocery kits all delivered to you curbside. Check out all of our offerings by visiting our website and learn more about our meal + grocery kits by...  ",
+			"description":  "We have grocery kits including produce, pantry, meats from Peeler Farm Beef, and chicken. Orders need to be placed by Wednesday at 3:00 for curbside pickup or delivery Friday.",
 			"website": "cookhouseathome.com",
 			"facebook": "cookhouserestaurant",
 			"twitter": null,
-			"source": ["https://www.facebook.com/cookhouserestaurant/posts/1344214172429110, https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"],
+			"source": ["https://www.cookhouseathome.com/meal-kits", "https://www.facebook.com/cookhouserestaurant/posts/1344214172429110", "https://www.expressnews.com/food/restaurants/article/San-Antonio-restaurants-turn-into-grocery-stores-15152287.php"],
+
 			"latlng": [29.453090, -98.485210]
 		},
 		{
